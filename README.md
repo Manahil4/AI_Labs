@@ -1,28 +1,33 @@
-# Artificial Intelligence Lab Work Repository  
+# Genetic Algorithm Implementation
 
-Welcome to the repository containing all the lab sessions from the **Artificial Intelligence (AI) course** in our 5th Semester. This repository showcases the practical implementation of various AI concepts and techniques covered during the course.  
+**A Python implementation of a Genetic Algorithm (GA)**  
+This program demonstrates the working of a genetic algorithm, including:
+- Population initialization
+- Fitness evaluation
+- Selection
+- Crossover
+- Mutation
 
-### **Course Instructors**  
-- **Miss Anita Ali**  
-- **Miss Hameeza**  
-- **Sir Saad Qasim**  
+---
 
-### **Topics Covered**  
-This repository includes the following topics explored through both lab sessions and theoretical discussions:  
-1. **Implementing Simple Neural Networks Using Perceptron**  
-2. **Developing Artificial Neural Networks (ANN) Using Perceptron**  
-3. **Applying Data Preprocessing for ANN**  
-4. **Developing ANN Using ADALINE**  
-5. **Developing ANN Using Backpropagation**  
-6. **Applying Uninformed Searching Techniques for Problem Solving**  
-7. **Applying Informed Searching Techniques for Problem Solving**  
-8. **Solving Constraint Satisfaction Problems (CSPs) by Enforcing Arc Consistency**  
-9. **Solving CSPs Using Stochastic Local Search Techniques**  
-10. **Developing Knowledge-Based Systems**  
-11. **Constructing Complex Rule-Based Systems**  
-12. **Practicing Data-Driven Programming in Expert Systems**  
-13. **Developing Fuzzy Logic-Based Systems**  
-14. **Complex Engineering Activities**  
+**Problem Statement**  
+Training a neural network to achieve optimal performance in terms of accuracy and loss on a given dataset requires careful selection of hyperparameters, such as the number of neurons in hidden layers and the learning rate. These hyperparameters significantly impact the model's ability to generalize and perform well on unseen data. However, manually tuning hyperparameters is time-consuming and often leads to suboptimal results due to the sheer size of the search space.
 
-### **Purpose**  
-This repository serves as a comprehensive collection of our hands-on experience with AI techniques, showcasing our progress and understanding of the subject. Each topic reflects the practical skills and problem-solving approaches we developed throughout the semester😊.
+The objective of this project is to automate the process of hyperparameter optimization for a multi-layer artificial neural network (ANN) used for image classification. Specifically, we aim to optimize the following parameters for an ANN with two hidden layers:
+1. Number of neurons in the first hidden layer.  
+2. Number of neurons in the second hidden layer.  
+3. Learning rate for the optimizer.  
+
+The dataset used for this problem is the MNIST dataset, which contains grayscale images of handwritten digits (28x28 pixels) with 10 classes (digits 0-9).
+
+---
+
+**Proposed Solution**  
+We propose the use of Genetic Algorithms (GA) to efficiently search for the optimal hyperparameters. Genetic Algorithms are inspired by the process of natural selection and are effective in solving optimization problems with large and complex search spaces.
+
+---
+
+**Contributors**  
+- **Manahil Ejaz** (CS-22011)  
+- **Neha Nauman Khan** (CS-22024)  
+- **Tahira Aurangzeb** (CS-21052)
